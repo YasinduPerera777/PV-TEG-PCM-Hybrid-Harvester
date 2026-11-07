@@ -1,0 +1,26 @@
+[S0919] Sweep 17 / PV1: SKIPPED -- ValueError: no usable signal (Isc_guess or Voc_guess <= 0)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 724, in process_file
+    fit = fit_diode_model(V_d, I_d, P_d, V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 285, in fit_diode_model
+    raise ValueError("no usable signal (Isc_guess or Voc_guess <= 0)")
+ValueError: no usable signal (Isc_guess or Voc_guess <= 0)
+
+[S0919] Sweep 17 / PV2: SKIPPED -- ValueError: no usable signal (Isc_guess or Voc_guess <= 0)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 724, in process_file
+    fit = fit_diode_model(V_d, I_d, P_d, V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 285, in fit_diode_model
+    raise ValueError("no usable signal (Isc_guess or Voc_guess <= 0)")
+ValueError: no usable signal (Isc_guess or Voc_guess <= 0)
+
+[S0919] Sweep 17 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)

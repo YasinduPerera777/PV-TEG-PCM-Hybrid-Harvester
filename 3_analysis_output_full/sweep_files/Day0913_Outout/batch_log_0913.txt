@@ -1,0 +1,101 @@
+[S0913] Sweep 23 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0913] Sweep 35 / TEG: SKIPPED -- LinAlgError: SVD did not converge in Linear Least Squares
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 349, in fit_linear_model
+    slope, intercept = np.polyfit(V_fit_data, I_fit_data, 1)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\lib\_polynomial_impl.py", line 677, in polyfit
+    c, resids, rank, s = lstsq(lhs, rhs, rcond)
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\linalg\_linalg.py", line 2539, in lstsq
+    x, resids, rank, s = _umath_linalg.lstsq(a, b, rcond,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\linalg\_linalg.py", line 156, in _raise_linalgerror_lstsq
+    raise LinAlgError("SVD did not converge in Linear Least Squares")
+numpy.linalg.LinAlgError: SVD did not converge in Linear Least Squares
+
+[S0913] Sweep 36 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0913] Sweep 37 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0913] Sweep 38 / PV2: SKIPPED -- ValueError: array must not contain infs or NaNs
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 724, in process_file
+    fit = fit_diode_model(V_d, I_d, P_d, V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 313, in fit_diode_model
+    fit = least_squares(
+          ^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\scipy\_lib\_util.py", line 662, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\scipy\optimize\_lsq\least_squares.py", line 1019, in least_squares
+    result = trf(vector_fun.fun, vector_fun.jac, x0, f0, J0, lb, ub, ftol, xtol,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\scipy\optimize\_lsq\trf.py", line 124, in trf
+    return trf_bounds(
+           ^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\scipy\optimize\_lsq\trf.py", line 303, in trf_bounds
+    U, s, V = svd(J_augmented, full_matrices=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\scipy\linalg\_decomp_svd.py", line 151, in svd
+    a1 = _asarray_validated(a, check_finite=check_finite)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\scipy\_lib\_util.py", line 409, in _asarray_validated
+    a = toarray(a)
+        ^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\lib\_function_base_impl.py", line 684, in asarray_chkfinite
+    raise ValueError(
+ValueError: array must not contain infs or NaNs
+
+[S0913] Sweep 38 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0913] Sweep 39 / PV2: SKIPPED -- ValueError: no usable signal (Isc_guess or Voc_guess <= 0)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 724, in process_file
+    fit = fit_diode_model(V_d, I_d, P_d, V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 285, in fit_diode_model
+    raise ValueError("no usable signal (Isc_guess or Voc_guess <= 0)")
+ValueError: no usable signal (Isc_guess or Voc_guess <= 0)
+
+[S0913] Sweep 39 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)

@@ -1,0 +1,29 @@
+table,title,calculation_file,note
+Table 1.1,Configurations of the two panels,,"descriptive, no calculation"
+Table 3.1,Main components of the data acquisition system,,"descriptive, no calculation"
+Table 3.2,Arduino Mega 2560 pins used by the data acquisition system,,"descriptive, no calculation"
+Table 3.3,I²C devices and ADS1115 channel assignment,,"descriptive, no calculation"
+Table 3.4,Thermocouple positions and the quantity each one measures,,"descriptive, no calculation"
+Table 3.5,Smallest reading (resolution) of the measurement channels,4_calculation_files/Table_3.5_Resolution_of_measurement_channels.xlsx,
+Table 3.6,Experimental days and configuration,,"descriptive, no calculation"
+Table 4.1,Data set inventory and analysis windows,4_calculation_files/Table_4.1_Data_set_inventory.xlsx,
+Table 4.2,"Ambient and light conditions per day (ambient = calibrated TC8, within the analysis window)",4_calculation_files/Table_4.2_Ambient_and_light_conditions.xlsx,
+Table 4.3,Quality and uncertainty of the extracted parameters (all 230 sweeps),4_calculation_files/Table_4.3_Quality_and_uncertainty.xlsx,
+Table 4.4,Composition and transition temperatures of the paraffin–coconut oil mixtures,4_calculation_files/Table_4.4_PCM_mixtures_and_transition_temperatures.xlsx,
+Table 4.5,Temperature of the PCM inside the enclosure during operation on the hybrid days (TC6 = inside the PCM; TC5 = rear surface of the hybrid panel; analysis windows of Table 4.1),4_calculation_files/Table_4.5_PCM_temperature.xlsx,
+Table 4.6,"Time the 40:60 PCM spent in each part of its melting range (TC6), and the front-surface temperature difference on the same day",4_calculation_files/Table_4.6_PCM_melting_range_time.xlsx,
+Table 4.7,"Baseline PV1/PV2 power ratio, both panels bare",4_calculation_files/Table_4.7_Baseline_power_ratio.xlsx,
+Table 4.8,Daily panel temperatures on the hybrid days (medians at sweep midpoints),4_calculation_files/Table_4.8_Daily_panel_temperatures.xlsx,
+Table 4.9,"Temperature difference between the panels (PV1 − PV2) by light level, hybrid days",4_calculation_files/Table_4.9_Temperature_difference_by_light_level.xlsx,
+Table 4.10,Maximum power point by day,4_calculation_files/Table_4.10_Maximum_power_point_by_day.xlsx,
+Table 4.11,"Open-circuit voltage, short-circuit current and fill factor by day (daily means)",4_calculation_files/Table_4.11_Voc_Isc_FF_by_day.xlsx,
+Table 4.12,"Parameters of all sweeps, median (Q1–Q3)",4_calculation_files/Table_4.12_Parameters_of_all_sweeps.xlsx,
+Table 4.13,Paired PV1/PV2 ratios: baseline against hybrid,4_calculation_files/Table_4.13_Paired_ratios_baseline_vs_hybrid.xlsx,
+Table 4.14,"Gain by irradiance level (PV2 power bin), median ratios PV1/PV2",4_calculation_files/Table_4.14_Gain_by_irradiance_level.xlsx,
+Table 4.15,Stability check: fill factor of each panel at matched light (median),4_calculation_files/Table_4.15_Fill_factor_stability_check.xlsx,
+Table 4.16,Thermal contribution to the 38% gain,4_calculation_files/Table_4.16_Thermal_contribution_to_gain.xlsx,
+Table 4.17,"Sampled energy at the maximum power point, by day",4_calculation_files/Table_4.17_Sampled_energy.xlsx,
+Table 4.18,TEG sweep results by day,4_calculation_files/Table_4.18_TEG_results_by_day.xlsx,
+Table 4.19,TEG open-circuit voltage against temperature differences from the thermocouples,4_calculation_files/Table_4.19_TEG_Voc_vs_temperature.xlsx,
+Table 4.20,Summary of the main findings,,"summary of findings: every number is taken from Tables 4.4, 4.6-4.9, 4.14, 4.16-4.18 (see 4_calculation_files/README.md)"
+Table A.1,Row limits of the summary files,2_analysis_set_row_limited/row_limits_TableA1.csv,a rule chosen by the author; removed sweeps in row_limit_log.csv

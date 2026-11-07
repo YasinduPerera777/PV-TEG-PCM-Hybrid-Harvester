@@ -1,0 +1,251 @@
+[S0917] Sweep 01 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 02 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 03 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 04 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 05 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 06 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 07 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 08 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 09 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 10 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 11 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 12 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 13 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 14 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 15 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 16 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 17 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 18 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 19 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 20 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 21 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 22 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 23 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 24 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 25 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 26 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 27 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)
+
+[S0917] Sweep 28 / TEG: SKIPPED -- ValueError: degenerate linear fit (zero/non-finite slope)
+Traceback (most recent call last):
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 726, in process_file
+    fit = fit_linear_model(V_fit_data, I_fit_data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\lap\UOP Academics\AC_Year4\Research\Final Readings\Python_Analysis\batch_process.py", line 351, in fit_linear_model
+    raise ValueError("degenerate linear fit (zero/non-finite slope)")
+ValueError: degenerate linear fit (zero/non-finite slope)

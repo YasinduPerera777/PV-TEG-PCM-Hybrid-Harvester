@@ -1,0 +1,10 @@
+date_2026,day_code,configuration,last_row_used_PV1_PV2,last_row_used_TEG
+12 September,0912,Hybrid against bare,31,28
+13 September,0913,Hybrid against bare,30,28
+14 September,0914,Hybrid against bare,24,2
+16 September,0916,Hybrid against bare,23,TEG faulty
+17 September,0917,Hybrid against bare,28,TEG faulty
+18 September,0918,Hybrid against bare,26,12
+19 September,0919,Hybrid against bare,17,17
+28 September,0928,Bare against bare,30,Not connected
+1 October,1001,Bare against bare,30,Not connected
