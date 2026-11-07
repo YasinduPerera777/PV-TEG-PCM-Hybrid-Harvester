@@ -47,7 +47,7 @@ Means are shown as sum divided by number. Medians, quartiles, minima and maxima 
 | 1.1, 3.1, 3.2, 3.3, 3.4, 3.6 | Descriptive tables (configuration, components, pins, addresses, thermocouple positions, experimental days). They contain no calculated values. |
 | 4.4 | The mean of the two trials and the melting range are calculated (file included). The transition temperatures are read from the cooling-curve graphs, which are plotted with elapsed time on the x axis and the calibrated thermocouple temperature on the y axis (see the notes in the Table 4.4 file). |
 | 4.20 | Summary of findings. Every number is taken from another table: 73% and 72-75% from Table 4.7; 1.7 and 2.5-2.9 deg C from Tables 4.8 and 4.9; 1.008 and 0.729, 38% and 36-42% from Tables 4.14 and 4.16; 0.6-1.3% and about 37 of 38 points from Table 4.16; 37.85 and 37.71 Wh from Table 4.17; TEG figures from Table 4.18; PCM entered its melting range on five days and reached 53 deg C on three from Table 4.6. |
-| A.1 | Row limits are a decision of the author, not a calculation. The rule and the removed sweeps are listed in row_limits_TableA1.csv and row_limit_log.csv of the row-limited data set. |
+| I.1 | Row limits are a decision of the author, not a calculation. The rule and the removed sweeps are listed in row_limits_TableI1.csv and row_limit_log.csv of the row-limited data set. |
 
 ## Notes
 

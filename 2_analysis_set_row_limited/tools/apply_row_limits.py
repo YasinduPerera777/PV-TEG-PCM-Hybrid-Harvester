@@ -2,13 +2,13 @@
 """
 apply_row_limits.py
 Creates the row-limited ("analysis set") copy of the sweep summary files and of the
-calibrated one-minute files, following Table A.1 of the thesis.
+calibrated one-minute files, following Table I.1 of the thesis.
 
 Usage:  python3 -I apply_row_limits.py <Data Repository folder> <output folder>
 
-Rules (thesis Appendix A.1)
+Rules (thesis Appendix I.1)
   * Summary files: rows of the spreadsheet up to and including the "last row used"
-    (Table A.1). Row 1 is the header, so "last row 31" means the first 30 sweeps.
+    (Table I.1). Row 1 is the header, so "last row 31" means the first 30 sweeps.
     The block of Average / Minimum / Maximum rows below the data is kept and moves up.
   * One-minute files: the analysis window runs from the last one-minute record at or
     before the start of the first selected sweep to one minute after the end of the
@@ -21,7 +21,7 @@ import pandas as pd
 import openpyxl
 from openpyxl.utils import get_column_letter
 
-# Table A.1: day code -> (configuration, last row PV1/PV2, last row TEG or note)
+# Table I.1: day code -> (configuration, last row PV1/PV2, last row TEG or note)
 LIMITS = {
     "0912": ("Hybrid against bare", 31, 28),
     "0913": ("Hybrid against bare", 30, 28),
@@ -67,7 +67,7 @@ def trim_summary(src, dst, last_row, day, source):
                         bad.append((c.coordinate, c.value))
     note = wb.create_sheet("row_limit_note")
     note["A1"] = f"Row-limited copy of {os.path.basename(src)}"
-    note["A2"] = (f"Rows after sheet row {last_row} were removed (Table A.1 of the thesis, "
+    note["A2"] = (f"Rows after sheet row {last_row} were removed (Table I.1 of the thesis, "
                   f"{source} sweeps, day {day}). Row 1 is the header, so {last_row-1} sweep rows remain at most.")
     note["A3"] = "The Average / Minimum / Maximum rows are the author's own and cover rows 2 to %d." % last_row
     note["A4"] = "The original, unlimited file is kept in the folder Python_Analysis_of_Sweep_files."
@@ -131,7 +131,7 @@ def trim_voltage(src, dst, first, last):
     note["A1"] = f"Row-limited copy of {os.path.basename(src)}"
     note["A2"] = (f"Kept: records from {ws.cell(start_row,2).value} to {ws.cell(keep[-1],2).value} "
                   f"({len(keep)} records). Window = from the last record at or before the start of the first "
-                  f"selected sweep to one minute after the end of the last selected sweep (Table A.1).")
+                  f"selected sweep to one minute after the end of the last selected sweep (Table I.1).")
     note["A3"] = "Calibrated columns are formulas: raw reading minus the offset in the table at AD:AE."
     note["A4"] = "The original, unlimited file is kept in the folder Outdoor_Campain_Data."
     note.column_dimensions["A"].width = 120
@@ -181,7 +181,7 @@ def main(root, out):
         w = csv.writer(f)
         w.writerow(["day", "file", "last_row_used", "rows_in_original", "rows_kept", "paired_or_ok_sweeps", "check / window", "removed sweeps (number, date, start-end, status)"])
         w.writerows(log)
-    with open(os.path.join(out, "row_limits_TableA1.csv"), "w", newline="", encoding="utf-8") as f:
+    with open(os.path.join(out, "row_limits_TableI1.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["date_2026", "day_code", "configuration", "last_row_used_PV1_PV2", "last_row_used_TEG"])
         for day, (cfg, lp, lt) in LIMITS.items():

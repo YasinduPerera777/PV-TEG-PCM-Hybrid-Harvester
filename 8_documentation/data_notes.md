@@ -1,7 +1,7 @@
 # Data notes
 
 ## Row limits
-Table A.1 of the thesis fixes the last row used of every summary file. Row 1 is the header, so "last row 31" means the first 30 sweeps. The row-limited copies are in `2_analysis_set_row_limited`; the removed sweeps are listed in `row_limit_log.csv`. Totals: 230 paired sweeps (172 hybrid, 58 baseline), 82 TEG sweeps, 3195 one-minute records.
+Table I.1 of the thesis fixes the last row used of every summary file. Row 1 is the header, so "last row 31" means the first 30 sweeps. The row-limited copies are in `2_analysis_set_row_limited`; the removed sweeps are listed in `row_limit_log.csv`. Totals: 230 paired sweeps (172 hybrid, 58 baseline), 82 TEG sweeps, 3195 one-minute records.
 
 ## Failed TEG days
 The TEG sweeps of 16 and 17 September are not used (TEG faulty). The TEG was not connected on 28 September and 1 October.

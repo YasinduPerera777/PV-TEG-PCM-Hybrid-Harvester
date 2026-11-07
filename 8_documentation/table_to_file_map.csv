@@ -26,4 +26,4 @@ Table 4.17,"Sampled energy at the maximum power point, by day",4_calculation_fil
 Table 4.18,TEG sweep results by day,4_calculation_files/Table_4.18_TEG_results_by_day.xlsx,
 Table 4.19,TEG open-circuit voltage against temperature differences from the thermocouples,4_calculation_files/Table_4.19_TEG_Voc_vs_temperature.xlsx,
 Table 4.20,Summary of the main findings,,"summary of findings: every number is taken from Tables 4.4, 4.6-4.9, 4.14, 4.16-4.18 (see 4_calculation_files/README.md)"
-Table A.1,Row limits of the summary files,2_analysis_set_row_limited/row_limits_TableA1.csv,a rule chosen by the author; removed sweeps in row_limit_log.csv
+Table I.1,Row limits of the summary files,2_analysis_set_row_limited/row_limits_TableI1.csv,a rule chosen by the author; removed sweeps in row_limit_log.csv

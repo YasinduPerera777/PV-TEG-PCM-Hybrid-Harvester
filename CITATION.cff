@@ -1,12 +1,13 @@
 cff-version: 1.2.0
 message: "If you use these data, please cite them as below."
-title: "Data, code and calculations for: Thermal Performance Analysis of a PV-TEG-PCM Hybrid Energy Harvester under Sri Lankan Tropical Outdoor Conditions"
+title: "PV-TEG-PCM Hybrid Harvester: data, code and calculation files for the thesis Thermal Performance Analysis of a PV-TEG-PCM Hybrid Energy Harvester under Sri Lankan Tropical Outdoor Conditions"
 type: dataset
 authors:
   - family-names: Perera
     given-names: M.Y.A.
     affiliation: "University of Peradeniya, Sri Lanka"
 date-released: 2026-11-07
-version: "1.0.0"
+version: "1.0.1"
 license: CC-BY-4.0
-# doi: to be added when the repository is archived
+repository-code: "https://github.com/YasinduPerera777/PV-TEG-PCM-Hybrid-Harvester"
+url: "https://github.com/YasinduPerera777/PV-TEG-PCM-Hybrid-Harvester/releases/tag/v1.0.1"

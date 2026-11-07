@@ -11,7 +11,7 @@ Laboratory work: nine paraffin-coconut oil mixtures (PCM1 to PCM9), cooling curv
 | Folder | Content |
 |---|---|
 | `1_raw_and_calibrated_data` | Sweep files `SMMDD.xlsx` (every I-V sweep as logged), one-minute temperature files `VMMDD_Callibrated.xlsx` (raw and calibrated thermocouple columns), the ice-point calibration file, and the PWM range files used for fitting |
-| `2_analysis_set_row_limited` | The data the thesis tables were calculated from: the same files with the rows outside the analysis windows removed (Table A.1). Has its own README and a log of every removed sweep |
+| `2_analysis_set_row_limited` | The data the thesis tables were calculated from: the same files with the rows outside the analysis windows removed (Table I.1 of the thesis). Has its own README and a log of every removed sweep |
 | `3_analysis_output_full` | Complete output of the Python analysis for every day: sweep summaries (PV1, PV2, TEG), fit figures of every sweep, captions, batch logs, and the one-minute temperature overview figures |
 | `4_calculation_files` | One Excel file per table that shows calculated values: steps in words, the arithmetic and a check against the printed value. Has its own README |
 | `5_figures` | Every figure of the thesis as an image, with its caption (`figure_captions.csv`) |
@@ -24,7 +24,7 @@ Laboratory work: nine paraffin-coconut oil mixtures (PCM1 to PCM9), cooling curv
 1. Find the table in `8_documentation/table_to_file_map.csv`.
 2. Open its file in `4_calculation_files`. The sheet **Steps** explains the calculation in words. The sheet **Working** shows each step with its formula. The sheet **Result** compares the recalculated value with the printed one.
 3. The input sheets of that file name the source file and row of every value, in `2_analysis_set_row_limited`.
-4. The row-limited files are copies of the files in `1_raw_and_calibrated_data` and `3_analysis_output_full` (rule in Table A.1 of the thesis).
+4. The row-limited files are copies of the files in `1_raw_and_calibrated_data` and `3_analysis_output_full` (rule in Table I.1 of the thesis).
 
 ## Notes
 
@@ -34,8 +34,16 @@ Laboratory work: nine paraffin-coconut oil mixtures (PCM1 to PCM9), cooling curv
 - The real-time clock (DS3231) was set from the computer time when the sketch was uploaded, the setting line was then commented out and the sketch uploaded again; a backup battery kept the time. No check against a reference clock was recorded.
 - The sketch in `7_code/arduino` is the documentation version of the sketch that logged the data: only comments, some serial messages and one unused constant were corrected so that it agrees with the thesis (see its header).
 
-## Licence and citation
 
-Suggested: data under CC BY 4.0, code under the MIT licence (see `LICENSE.md`). Citation details are in `CITATION.cff`. Archive address / DOI: to be added.
+Please cite this repository as:
+
+> Perera, M.Y.A. (2026) *PV-TEG-PCM Hybrid Harvester: data, code and calculation files*, version 1.0.1. GitHub. Available at: https://github.com/YasinduPerera777/PV-TEG-PCM-Hybrid-Harvester/releases/tag/v1.0.1
+
+Citation details are also in `CITATION.cff`.
+
+## Where to find it
+
+- GitHub (release v1.0.1): https://github.com/YasinduPerera777/PV-TEG-PCM-Hybrid-Harvester/releases/tag/v1.0.1
+- Google Drive (copy of the same files): https://drive.google.com/drive/folders/1Q6jt2ttMePXtbHTO62EJc1vI8VlduLcc?usp=sharing
 
 `MANIFEST_sha256.csv` lists every file with its size and SHA-256 checksum.

@@ -1,6 +1,6 @@
 # Figures and diagrams of the thesis
 
-Every figure of the thesis (Chapters 3 and 4 and Appendix B) as image files, with its caption exactly as printed. Where a figure has two panels in separate files (Appendix B, trials A and B), the files are marked _a and _b. Captions are also in `figure_captions.csv`.
+Every figure of the thesis (Chapters 3 and 4 and Appendix II) as image files, with its caption exactly as printed. Where a figure has two panels in separate files (Appendix II, trials A and B), the files are marked _a and _b. Captions are also in `figure_captions.csv`.
 
 ## Fig. 3.1
 
@@ -122,67 +122,67 @@ Summary of the electrical result. (a) Daily PV1/PV2 power ratio (ratio of daily 
 
 Hybrid day of 12 September 2026: temperatures at the TEG and the PCM (TC5 rear of PV1, TC6 PCM, TC7 under the TEG, TC8 ambient), the TEG open-circuit voltage from the one-minute records (resolution 0.19 mV) and the relative irradiance indicator. The lines are smoothed from the one-minute records (15-minute rolling median followed by a short rolling mean).
 
-## Fig. B.1
+## Fig. II.1
 
-![Fig. B.1](Fig_B_1_a.png)
+![Fig. II.1](Fig_II_1_a.png)
 
-![Fig. B.1](Fig_B_1_b.png)
+![Fig. II.1](Fig_II_1_b.png)
 
 Cooling curves of PCM1 (100:0 paraffin to coconut oil): (a) trial A and (b) trial B.
 
-## Fig. B.2
+## Fig. II.2
 
-![Fig. B.2](Fig_B_2_a.png)
+![Fig. II.2](Fig_II_2_a.png)
 
-![Fig. B.2](Fig_B_2_b.png)
+![Fig. II.2](Fig_II_2_b.png)
 
 Cooling curves of PCM2 (90:10): (a) trial A and (b) trial B.
 
-## Fig. B.3
+## Fig. II.3
 
-![Fig. B.3](Fig_B_3_a.png)
+![Fig. II.3](Fig_II_3_a.png)
 
-![Fig. B.3](Fig_B_3_b.png)
+![Fig. II.3](Fig_II_3_b.png)
 
 Cooling curves of PCM3 (80:20): (a) trial A and (b) trial B.
 
-## Fig. B.4
+## Fig. II.4
 
-![Fig. B.4](Fig_B_4_a.png)
+![Fig. II.4](Fig_II_4_a.png)
 
-![Fig. B.4](Fig_B_4_b.png)
+![Fig. II.4](Fig_II_4_b.png)
 
 Cooling curves of PCM4 (70:30): (a) trial A and (b) trial B.
 
-## Fig. B.5
+## Fig. II.5
 
-![Fig. B.5](Fig_B_5_a.png)
+![Fig. II.5](Fig_II_5_a.png)
 
-![Fig. B.5](Fig_B_5_b.png)
+![Fig. II.5](Fig_II_5_b.png)
 
 Cooling curves of PCM5 (60:40): (a) trial A and (b) trial B. No transition was located on trial A (Table 4.4).
 
-## Fig. B.6
+## Fig. II.6
 
-![Fig. B.6](Fig_B_6_a.png)
+![Fig. II.6](Fig_II_6_a.png)
 
-![Fig. B.6](Fig_B_6_b.png)
+![Fig. II.6](Fig_II_6_b.png)
 
 Cooling curves of PCM6 (50:50): (a) trial A and (b) trial B.
 
-## Fig. B.7
+## Fig. II.7
 
-![Fig. B.7](Fig_B_7_a.png)
+![Fig. II.7](Fig_II_7_a.png)
 
-![Fig. B.7](Fig_B_7_b.png)
+![Fig. II.7](Fig_II_7_b.png)
 
 Cooling curves of PCM8 (30:70): (a) trial A and (b) trial B.
 
-## Fig. B.8
+## Fig. II.8
 
-![Fig. B.8](Fig_B_8_a.png)
+![Fig. II.8](Fig_II_8_a.png)
 
-![Fig. B.8](Fig_B_8_b.png)
+![Fig. II.8](Fig_II_8_b.png)
 
 Cooling curves of PCM9 (20:80): (a) trial A and (b) trial B. No transition was located on either curve (Table 4.4).
 

@@ -1,6 +1,6 @@
 # Figure to source map
 
-Figures are in `5_figures` (file names `Fig_3_1` ... `Fig_B_8`) with captions in `figure_captions.csv`.
+Figures are in `5_figures` (file names `Fig_3_1` ... `Fig_II_8`) with captions in `figure_captions.csv`.
 "By caption" means the match was made from the wording of the caption and should be confirmed by the author.
 
 | Figure | Content | Source in this repository |
@@ -15,6 +15,6 @@ Figures are in `5_figures` (file names `Fig_3_1` ... `Fig_B_8`) with captions in
 | 4.5, 4.6 | Front and rear surface temperatures, all days | `3_analysis_output_full/one_minute_files/all_days_front_ambient.png`, `all_days_rear_ambient.png` (by caption) |
 | 4.7 | Electrical result summary | `4_calculation_files/Table_4.10`, `Table_4.14`, `Table_4.16` |
 | 4.8 | TEG and PCM temperatures, 12 Sep | `3_analysis_output_full/one_minute_files/daily/V0912_Callibrated_teg.png` (by caption) |
-| B.1 to B.8 | Cooling curves of PCM1 to PCM9 (PCM7 is Fig. 4.1), trial A above and trial B below | `6_pcm_laboratory/graphnA.png / .pdf` and `graphnB.pdf` (the graphs as used, one per trial) and the data files `Cooling_curve_data_nA.xlsx`, `nB.xlsx` |
+| II.1 to II.8 | Cooling curves of PCM1 to PCM9 (PCM7 is Fig. 4.1), trial A above and trial B below | `6_pcm_laboratory/graphnA.png / .pdf` and `graphnB.pdf` (the graphs as used, one per trial) and the data files `Cooling_curve_data_nA.xlsx`, `nB.xlsx` |
 
 The cooling curves are plotted with elapsed time on the x axis and the calibrated thermocouple temperature on the y axis.

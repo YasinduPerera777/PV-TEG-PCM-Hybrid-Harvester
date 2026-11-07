@@ -75,7 +75,7 @@ def t4_1(c):
     for r in rows[:-1]:
         d = code(r[0]); dd = d[1:]
         L.sec(f'{r[0]} 2026')
-        lr = L.input(f'Last row of the summary file used (Table A.1; row 1 is the header, so {LASTROW[dd][0]-1} sweep rows)', LASTROW[dd][0], '0')
+        lr = L.input(f'Last row of the summary file used (Table I.1; row 1 is the header, so {LASTROW[dd][0]-1} sweep rows)', LASTROW[dd][0], '0')
         n = L.add('Sweeps analysed = number of rows of this day in the sheet Sweeps', f'=COUNTIFS({S.r("code")},"{d}")', '0')
         fl = L.add('Failed sweeps removed = rows within the limit (last row - 1) minus sweeps analysed', f'=({lr.loc}-1)-{n.loc}', '0')
         a = L.add('Start of the first sweep', f'=_xlfn.MINIFS({S.r("t0")},{S.r("code")},"{d}")', 'hh:mm:ss')
@@ -96,8 +96,8 @@ def t4_1(c):
     ex.append([None, None, None, f'={tn.ref}', f'={tf.ref}', None, f'={tt.ref}', f'={tg.ref}'])
     return dict(exprs=ex, what=('An inventory of the data set: for each day the rows kept, the sweeps analysed, the analysis window, the number of '
                                 'one-minute temperature records and the number of TEG sweeps.'),
-                inputs=[IN_SW, IN_TM, IN_TEG, 'Last row used: Table A.1 (a rule chosen by the author, entered as an input on the Working sheet).'],
-                steps=['Take the last row used of each summary file from Table A.1. Row 1 is the header, so the sweep rows are 2 to that row.',
+                inputs=[IN_SW, IN_TM, IN_TEG, 'Last row used: Table I.1 (a rule chosen by the author, entered as an input on the Working sheet).'],
+                steps=['Take the last row used of each summary file from Table I.1. Row 1 is the header, so the sweep rows are 2 to that row.',
                        'Count the sweeps of the day in the sheet Sweeps. This is "Sweeps analysed".',
                        'Failed sweeps removed = (rows inside the limit) - (sweeps analysed). A sweep that failed to fit (status not ok) would be missing from the sheet; none fell inside the limit.',
                        'Analysis window = start of the first sweep of the day to the end of the last sweep, written as hours and minutes (seconds dropped).',
@@ -105,7 +105,7 @@ def t4_1(c):
                        'TEG sweeps = number of rows of the day in the sheet TEG (only on the five days with a working TEG).',
                        'Add the columns to get the totals 230 sweeps, 3195 records and 82 TEG sweeps.'],
                 example=[tx('12 Sep: ', (refs[0][1], '0'), ' sweeps, ', (refs[0][3], '0'), ' temperature records.')],
-                notes=['The row limits themselves (Table A.1) are decisions of the author and are not calculated.'],
+                notes=['The row limits themselves (Table I.1) are decisions of the author and are not calculated.'],
                 sheets=[SH_RES, SH_WK, SH_SW, SH_TM, SH_TG])
 
 
